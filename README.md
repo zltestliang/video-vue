@@ -6,4 +6,4 @@
 ## https://nplayer.js.org/
 
 ## 效果图
-<img src="https://github.com/zltestliang/video-vue/blob/master/src/assets/douyu.png" width="100px">
+<img src="https://github.com/zltestliang/video-vue/blob/master/src/assets/1631154208305.jpg" >

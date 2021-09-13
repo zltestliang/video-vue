@@ -1,4 +1,5 @@
 import videojs from 'video.js'
+import { parser } from './utils/xmlFormat'
 
 videojs.registerPlugin('ABP', ABPinit);
 function ABPinit() {
@@ -113,7 +114,7 @@ function ABPinit() {
 							// callback(true);
 						} else {
 							cm.seek(cmvideo.currentTime * 1000);
-							cm.load(window.BilibiliParser(xmlhttp.responseXML));
+							cm.load(parser(xmlhttp.responseXML));
 							callback(true);
 						}
 					} else

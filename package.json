@@ -11,6 +11,7 @@
     "core-js": "^3.6.5",
     "video.js": "^7.14.3",
     "videojs-logo": "^2.1.6",
+    "videojs-resolution-switcher": "^0.4.2",
     "vue": "^2.6.11"
   },
   "devDependencies": {
